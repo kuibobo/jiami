@@ -1,0 +1,94 @@
+/********************           
+Name:       jiami style
+Date:       2012/09/18
+Version:    1.0
+Author:     Lujun
+********************/
+/* reset */
+html,body { background:#FFF; color:#666; font:12px/1.5 \5FAE\8F6F\96C5\9ED1, Arial, \5b8b\4f53;}
+a { color:#69C;}
+a:hover { color:#333;}
+/* background */
+.bg { background:url(../images/order-bg.png) no-repeat 0 0;}
+.bgy { background:url(../images/order-bgy.png) repeat-y center 0;}
+/* common */
+body { min-width: 800px;}
+#header { width: 100%; height:50px; background:#3B3B3B; box-shadow: 0 0 2px #000; position: fixed; left: 0; top: 0;}
+#logo { float: left; position:relative; height:70px; margin:0 5%; padding-left:70px; line-height:50px;}
+#logo h1 { font-family:'Rockwell'; font-size:24px; font-weight: 700; font-variant:small-caps; color:#FFF; text-shadow: 1px 1px #000;}
+#logo h1 a { color: #FFF;}
+#logo h1 sup { margin-left: 5px; line-height: 40px; vertical-align: top; font-size: 10px; font-family: Arial; color: #F90;}
+#nav { float: right; height: 50px; margin: 0 5%; border-right: 1px solid #444;}
+#nav li { float: left; height: 50px; line-height: 50px; padding: 0 24px; font-size: 14px; font-weight: 700; border-left: 1px solid #444;}
+#nav li:hover, #home #nav li#nav-home, #admin #nav li#nav-admin { background: #222;}
+#footer { width: 100%; padding:1em 0; border-top:1px solid #DDD; box-shadow: 0 0 2px #CCC inset; background: #FFF; text-align:center; font-variant:small-caps;}
+/* box */
+#content { min-height:750px;}
+#side, #list { float:left; display:inline; width:40%; margin: 80px 5% 30px;}
+.box a { font-size:12px; padding:0 5px; border: 1px solid #F4F4F4; color:#69C; border-radius:3px; text-decoration:none;}
+.box a:hover, a.selected { border-color: #47A; background:#69C; color:#FFF; text-decoration:none; box-shadow: 0 1px 0 #7EA9D3 inset;}
+.box .hd { height: 60px; line-height: 40px;}
+.box .hd h2 { font-size: 30px; text-shadow: 1px 1px #FFF;}
+.box .hd h3 { font-size: 20px; text-shadow: 1px 1px #FFF;}
+.box .hd .more { float: right; font-size: 14px;}
+.box .hd .more a { padding: 3px 5px;}
+.box-login {}
+.box-login .form-login { margin: 0 0 20px; vertical-align: middle;}
+.box-login .form-login input { float: left;}
+.note {}
+.note h3 { margin: 20px 10px 10px; font-size: 22px; text-shadow: 1px 1px #FFF;}
+.note ul { margin: 0 10px; line-height: 2; list-style: inside;}
+/* form */
+.text { width: 98%; height: 20px; padding: 9px; border:1px solid #CCC; border-radius: 3px; box-shadow: 0 2px 2px #DDD inset;}
+.text-large { height:30px;}
+.btn { width: 20%; height: 40px; background: #EEE; border:1px solid #CCC; border-radius:3px; font-size: 16px; font-weight: 700; color: #F60; cursor: pointer; font-variant:small-caps; box-shadow: 0 2px 2px #FFF inset; text-shadow: 1px 1px #FFF;}
+.btn:hover { background: #F60; border:1px solid #C60; color: #FFF; box-shadow: 0 2px 2px #F90 inset; text-shadow: 1px 1px #B00; }
+.btn-large { height:50px; font-size: 20px;}
+.select { width: 100%; height: 40px; line-height: 30px; padding: 10px 5px; border-radius: 3px; border:1px solid #CCC; box-shadow: 0 2px 2px #DDD inset;}
+
+.box-login .btn { border-top: none; border-radius: 0 0 3px 3px;}
+.box-login .text { border-radius: 3px 3px 3px 0;}
+/* table */
+.list-rice {}
+.tb-nor { width: 100%;}
+.tb-nor thead { box-shadow: 0 2px 1px #DDD; color: #999; background: #E5E5E5; border-radius: 3px;  border-top: 1px solid #DDD;}
+.tb-nor thead th { padding: 5px 10px;}
+.tb-nor tfoot th { padding: 10px 10px; font-size: 20px;}
+.tb-nor td { padding: 10px 10px; border-bottom: 1px dotted #CCC;}
+.tb-nor .p { color: #F30;}
+.tb-nor .t { color: #F90;}
+.tb-nor .u { }
+.tb-nor input { font-size: 11px; padding: 0 3px; cursor: pointer; border-radius:3px; border:1px solid #959BA0; background: #EFEFEF; box-shadow: 0 1px 0 #FFF inset; color: #666;}
+.tb-nor input[name="btnAdd"] { border-radius: 3px 0 0 3px;}
+.tb-nor input[name="btnCut"] { border-width: 1px 0; border-radius: 0;}
+.tb-nor input[name="btnRemove"] { border-radius: 0 3px 3px 0;}
+.tb-nor input:hover { box-shadow: 0 1px 0 #7EA9D3 inset; border-color: #47A; background: #69C; color: #FFF;}
+.tb-nor tfoot input { font-size: 12px; font-weight: 700; padding: 4px 4px; box-shadow: 0 1px 0 #FFA042 inset; border:1px solid #FF4D00; background: #FF7D46; color: #FFF;}
+.tb-nor tfoot input.disabled { background: #CCC; border-color: #999; color: #999;  box-shadow: 0 1px 0 #FFF inset; cursor: default;}
+.tb-nor tfoot small { font-size: 12px;}
+.tb-nor .tr-add { background: #FFC;}
+.fn-tr { text-align: right;}
+/* admin */
+#content-set { margin:80px 5% 30px;}
+.list-form {}
+.list-form li { margin:0 0 15px;}
+.list-form li label { display: block; height: 15px; line-height: 15px; margin:0 0 10px;}
+
+.list-form-add li { float: left; width: 33%;}
+/* tips */
+.ui-tips-wrap { display: none; position: fixed; top:50px; left:50%; z-index:9999; width:300px; height:50px; margin: 0 0 0 -150px;}
+.ui-tips-bg { position:absolute; top:-5px; left:-5px; width:312px; height:62px; background:#000; border-radius:6px; opacity: 0.3; -moz-opacity: 0.3; filter:alpha(opacity=3);}
+.ui-tips { position:absolute; top:0; left:0; width:300px; height:50px; border:1px solid #999; line-height:50px;text-align:center; background:#FFF; border-radius:0 0 6px 6px;}
+.ui-tips p { font-size:14px;}
+/* f**k ie678 */
+.ui-notice { min-height:750px; margin: 0 auto; color:#666; overflow: hidden;}
+.ui-notice h2 { margin:200px 0 0; font-size: 60px; font-family: Georgia; text-shadow: 1px 1px #FFFFFF; text-align: center;}
+.list-browser { width: 605px; height:100px; margin: 0 auto;}
+.list-browser li { float: left; width:100px; margin: 50px 0 0; padding: 0 10px; border-right: 1px dotted #CCC; text-align: center;}
+.list-browser li.opera { border: none;}
+.list-browser li a { display: block; padding: 55px 0 0; background: url(../images/serial-browsers.png) no-repeat center 0;}
+.list-browser li.ie a { background-position: center 0;}
+.list-browser li.chrome a { background-position: center -80px;}
+.list-browser li.firefox a { background-position: center -160px;}
+.list-browser li.safari a { background-position: center -240px;}
+.list-browser li.opera a { background-position: center -320px;}
