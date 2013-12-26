@@ -1,4 +1,4 @@
 jiami
 =====
 
-A simple order meal system built with javascript &amp; bootstrap 2.x
+A light-weight **meal ordering system** built with Javascript &amp; PHP
